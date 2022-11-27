@@ -16,6 +16,10 @@ public class EstadoChequeraModel {
     public EstadoChequeraModel() {
     }
 
+    public EstadoChequeraModel(int idEstado) {
+        this.idEstado = idEstado;
+    }
+
     public EstadoChequeraModel(int idEstado, String detalle) {
         this.idEstado = idEstado;
         this.detalle = detalle;

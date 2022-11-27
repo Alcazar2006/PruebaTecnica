@@ -22,6 +22,10 @@ public class CuentaBancariaModel {
     public CuentaBancariaModel() {
     }
 
+    public CuentaBancariaModel(long idCuenta) {
+        this.idCuenta = idCuenta;
+    }
+
     public CuentaBancariaModel(long idCuenta, TipoCuentaModel tipoCuentaModel, UsuarioModel usuarioModel) {
         this.idCuenta = idCuenta;
         this.tipoCuentaModel = tipoCuentaModel;

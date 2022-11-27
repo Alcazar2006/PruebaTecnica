@@ -36,6 +36,10 @@ public class ChequeModel {
         this.chequeraModel = chequeraModel;
     }
 
+    public ChequeModel(ChequeraModel chequeraModel) {
+        this.chequeraModel = chequeraModel;
+    }
+
     public long getIdCheque() {
         return idCheque;
     }

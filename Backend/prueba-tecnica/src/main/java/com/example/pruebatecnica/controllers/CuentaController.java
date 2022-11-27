@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.pruebatecnica.ResponseMessage;
 import com.example.pruebatecnica.dto.SearchDTO;
+import com.example.pruebatecnica.services.CuentaService;
 import com.example.pruebatecnica.services.UsuarioService;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,21 +15,16 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
-@RequestMapping("/usuario")
+@RequestMapping("/cuenta")
 @CrossOrigin
-public class UsuarioController {
+public class CuentaController {
 
   @Autowired
-  private UsuarioService usuarioService;
+  private CuentaService cuentaService;
 
-  @GetMapping(value = "/getByNombreDpi")
-  public ResponseEntity<ResponseMessage> getByNombreDpi(SearchDTO ch) {
-    return new ResponseEntity<>(usuarioService.getByNombreDpi(ch), HttpStatus.OK);
-  }
-
-  @GetMapping(value = "/getAll")
-  public ResponseEntity<ResponseMessage> getListByUser() {
-    return new ResponseEntity<>(usuarioService.getAll(), HttpStatus.OK);
+  @GetMapping(value = "/getByUser")
+  public ResponseEntity<ResponseMessage> getByUser(SearchDTO ch) {
+    return new ResponseEntity<>(cuentaService.getByUser(ch), HttpStatus.OK);
   }
 
 }

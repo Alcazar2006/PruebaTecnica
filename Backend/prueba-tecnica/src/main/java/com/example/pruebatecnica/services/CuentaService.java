@@ -3,9 +3,8 @@ package com.example.pruebatecnica.services;
 import com.example.pruebatecnica.ResponseMessage;
 import com.example.pruebatecnica.dto.SearchDTO;
 
-public interface UsuarioService {
-    public ResponseMessage getAll();
+public interface CuentaService {
 
-    public ResponseMessage getByNombreDpi(SearchDTO ch);
+    public ResponseMessage getByUser(SearchDTO ch);
 
 }
