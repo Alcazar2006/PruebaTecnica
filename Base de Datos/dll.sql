@@ -76,27 +76,26 @@ INSERT INTO USUARIO(nombre,apellido,dpi) VALUES ('Esteban Mario',' Montoya Marti
 INSERT INTO TIPO_CUENTA (detalle) VALUES ('Ahorro'),('Monetaria');
 
 
-INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (2,1);
+INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (1,1);
 INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (2,2);
 INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (1,3);
 INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (2,4);
-INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (2,5);
+INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (1,5);
 INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (2,6);
-INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (1,1);
+INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (1,7);
+INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (2,1);
 INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (1,2);
-INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (1,3);
-INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (2,1);
-INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (2,2);
+INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (2,3);
+INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (1,4);
 INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (2,5);
 INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (1,6);
-INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (2,4);
-INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (1,6);
-INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (2,6);
+INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (2,7);
 INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (1,1);
+INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (2,2);
+INSERT INTO CUENTA_BANCARIA(id_tipo_cuenta,id_usuario) values (1,3);
 
 
-INSERT INTO ESTADO_CHEQUERA(detalle) VALUES ('En Proceso'), ('Entregada'), ('Cancelada');
+INSERT INTO ESTADO_CHEQUERA(detalle) VALUES ('En Proceso'), ('Entregada'), ('Eliminada');
 
 --INSERT INTO CHEQUERA (id_cuenta,id_estado_chequera) VALUES (1,1)
 
---INSERT INTO  CHEQUE(id_chequera) VALUES (1);
