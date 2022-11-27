@@ -77,9 +77,6 @@ export default function AddChequeraComponent(props) {
                 <MenuItem key={2} value={2}>
                   Entregada
                 </MenuItem>
-                <MenuItem key={3} value={3}>
-                  Eliminada
-                </MenuItem>
               </Select>
             </FormControl>
           </Box>
