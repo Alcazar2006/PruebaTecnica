@@ -161,8 +161,19 @@ Una chequera solo podrá ser editado o eliminada cunado aun se encuentra en el e
     </dependency>
 </dependencies>
 
+### Controllers
+![imagen](https://user-images.githubusercontent.com/64711241/204118765-3f72392e-cd21-453d-bd25-87b78999f2f7.png)
 
-## ResponseMessage
+### Repositories
+![imagen](https://user-images.githubusercontent.com/64711241/204118768-109f65ae-d5fd-4b2a-8b64-a7a3d50ae5b6.png)
+
+### Models
+ ![imagen](https://user-images.githubusercontent.com/64711241/204118772-1d19052f-8704-4d07-a453-761e52b4271a.png)
+
+### Services
+![imagen](https://user-images.githubusercontent.com/64711241/204118783-4600ee42-0c30-488f-b100-f27a125a1ca8.png)
+
+### ResponseMessage
 #### Todas las peticiones retornaran un objeto de tipo ResponseMessage; en el cual se identifican los siguientes atributos:
  - Object data: Toda información que sea enviada para sus posterior uso (resultados de select,update,etc)
  - boolean Valid: Si la petición fue correcta o existió algún error.
