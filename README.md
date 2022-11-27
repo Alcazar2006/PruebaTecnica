@@ -162,8 +162,20 @@ Una chequera solo podrá ser editado o eliminada cunado aun se encuentra en el e
 </dependencies>
 
 
+## ResponseMessage
+#### Todas las peticiones retornaran un objeto de tipo ResponseMessage; en el cual se identifican los siguientes atributos:
+ - Object data: Toda información que sea enviada para sus posterior uso (resultados de select,update,etc)
+ - boolean Valid: Si la petición fue correcta o existió algún error.
+ - String msg: mensaje de error o petición correcta. 
 
+![imagen](https://user-images.githubusercontent.com/64711241/204118631-b7829247-2a8f-404b-93c2-2cfd667826c5.png)
 
+## Estados Chequera:
+ - En proceso: La chequera fue asignada a una cuenta.
+ - Eliminada: La chequera fue cancelada y/o eliminada
+ - Entregada: La chequera fue entregada al cliente.
+
+![imagen](https://user-images.githubusercontent.com/64711241/204118646-bce58542-2836-458f-b23e-ff446cc472a2.png)
 
 
 
