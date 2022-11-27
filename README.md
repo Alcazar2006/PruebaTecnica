@@ -124,10 +124,43 @@ Peticiones enfocadas en la tabla de Usuario
 
 ![imagen](https://user-images.githubusercontent.com/64711241/204118508-d4fc543d-1788-4279-be70-08c591647487.png)
 
-Acciones Permitidas
+## Acciones Permitidas
 Una chequera solo podrá ser editado o eliminada cunado aun se encuentra en el estado “En Proceso”
 
 ![imagen](https://user-images.githubusercontent.com/64711241/204118326-115eba7a-6266-4665-8229-6b4242d88044.png)
+
+## BackEnd – Spring Boot
+### Dependencias Utilizadas
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+        <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-devtools</artifactId>
+        <scope>runtime</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+
+    <dependency>
+        <groupId>com.microsoft.sqlserver</groupId>
+        <artifactId>mssql-jdbc</artifactId>
+        <scope>runtime</scope>
+    </dependency>
+</dependencies>
+
 
 
 
