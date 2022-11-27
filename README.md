@@ -12,5 +12,8 @@
 ## IDEs
 - Visual Studio Code 
 
-## Backend
-- JDK: jdk-8
+## Base de datos TSQL
+-  SQL Server 2015
+- Usuario:
+  - Usuario: user1
+  - password: 1234
