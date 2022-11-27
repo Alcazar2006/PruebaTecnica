@@ -11,6 +11,7 @@ function App() {
       <NavBar/>
       <Router>
         <Routes>
+          <Route path="/" element={<Inicio/>} />
           <Route path="/Inicio" element={<Inicio/>} />
           <Route path="/Gestion" element={<Gestion/>} />
           <Route path="/*" element={<RutaNoEncontrada/>} />
