@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.pruebatecnica.ResponseMessage;
 import com.example.pruebatecnica.dto.SearchDTO;
 import com.example.pruebatecnica.services.CuentaService;
-import com.example.pruebatecnica.services.UsuarioService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
